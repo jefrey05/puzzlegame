@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Puzzle</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Puzzle Game</h1>
+    </header>
+
+    <div class="new-game">
+        <button id="ng" onclick="generateRandom()">New Game</button>
+    </div>
+
+    <div class="container">
+        <div class="square-1"><input class="checkbox" type="checkbox"></div>
+        <div class="square-2"><input class="checkbox" type="checkbox"></div>
+        <div class="square-3"><input class="checkbox" type="checkbox"></div>
+        <div class="square-4"><input class="checkbox" type="checkbox"></div>
+        <div class="square-5"><input class="checkbox" type="checkbox"></div>
+        <div class="square-6"><input class="checkbox" type="checkbox"></div>
+        <div class="square-7"><input class="checkbox" type="checkbox"></div>
+        <div class="square-8"><input class="checkbox" type="checkbox"></div>
+        <div class="square-9"><input class="checkbox" type="checkbox"></div>
+    </div>
+</div>
+<div class="btn">
+  <button onclick="swap()" class="button-three">SWAP</button>
+</div>
+
+<div class="steps">
+    <h2>Steps</h2>
+    <p id="counter"></p>
+</div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
